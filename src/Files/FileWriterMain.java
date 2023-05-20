@@ -8,7 +8,7 @@ public class FileWriterMain {
         FileWriterMain myObj = new FileWriterMain();
         myObj.writeData("My file");
         myObj.readFromFile();
-        myObj.appendData("hhahs");
+        myObj.appendData("Create Space");
     }
     public void appendData(String data){
         try {
